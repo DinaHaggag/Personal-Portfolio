@@ -50,7 +50,7 @@
     margin-right: 40px;
     margin-top: 70px;
     margin-bottom: 40px;
-    height: 220px;
+    min-height: 220px;
     width: auto;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -239,8 +239,13 @@
         min-height: 300px;
         min-width: 219px;
     }
+    #about_image_placeholder{
+      width:220px;
+      height: 145px;
+      float:left;
+    }
     .about h1 {
-        float: right;
+        text-align: right;
         padding: 15px 50px 15px;
   }
   /* my work section */
@@ -258,7 +263,7 @@
 }
 }
   /* Large screens (desktop) */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     /* about me section */
     .about-container{
         display: flex;
